@@ -1,0 +1,524 @@
+.cardtype{
+  padding: 20px;
+  align-content: center;
+}
+.backg{
+  background-image: url("/rm222batch2-kul-30.jpg");
+}
+
+  .color{
+background-color: #517DAE;
+ 
+ }
+ .card{
+
+  z-index: 1;
+  position: absolute;
+ }
+ .bgimage{
+  
+  z-index: -1;
+  position: absolute;
+  
+ }
+
+ .color2
+ {
+ text-align: center;
+  background-color: #AE8251;
+ }
+ .alignment{
+  text-align: center;
+ }
+  .SP
+    {
+        width: 4px;
+        height: 10PX;
+    }
+    .SPh
+    {
+        width: 4px;
+        height: 10PX;
+    }
+  
+    .gr {
+      
+      align-items: center;
+      width: max-content;
+      padding: 20px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+      height: max-content;
+      border-radius: 10px;
+      padding: z0px;
+      box-sizing: border-box;
+      color: black ;
+      text-align: center;
+     
+      font-weight: bold;
+    }
+  
+    .button {
+      width: max-content;
+      height: 100px;
+      background-color: #fca4a4;
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      color: black;
+      box-shadow: -2px -2px 10px rgba(1, 1, 1, 0.2);
+      text-align: center;
+      font-size: 24px;
+      border-style                :   solid;
+      border-width                :   2px;
+      border-color                :   black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .buttonM {
+        width: 150px;
+        height: 100px;
+        background-color: #7caeff;
+        border-radius: 10px;
+        padding: 5px;
+        box-sizing: border-box;
+        color: black;
+        
+        text-align: center;
+        font-size: 24px;
+        border-style                :   solid;
+        border-width                :   2px;
+        border-color                :   black;
+        font-weight: bold;
+        cursor: pointer;
+      }
+  
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #ff72d7;
+        overflow-x: hidden;
+        padding-top: 60px;
+        transition: 0.5s;
+    }
+    
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: #fff;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidebar .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    
+    .openbtn {
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: transparent;
+        color: black;
+        padding: 10px 15px;
+        border: none;
+    }
+    
+    .openbtn:hover {
+        background-color: #ff72d7;
+    }
+    
+    #main {
+        transition: margin-left 0.5s;
+        padding: 20px;
+    }
+    .NB
+    {
+      width: 140px;
+      height: 100px;
+      background-color: #e6a4fc;
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      color: black;
+      box-shadow: -2px -2px 10px rgba(1, 1, 1, 0.2);
+      text-align: center;
+      font-size: 24px;
+      border-style                :   solid;
+      border-width                :   2px;
+      border-color                :   black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .NBT
+    {
+      width: 140px;
+      height: 100px;
+      background-color: #1eff7c;
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      color: black;
+     
+      text-align: center;
+      font-size: 24px;
+      border-style                :   solid;
+      border-width                :   2px;
+      border-color                :   black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .vidBT
+    {
+      width: 300px;
+      height: 100px;
+      background-color: #fca4a4;
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      color: black;
+      box-shadow: -2px -2px 10px rgba(1, 1, 1, 0.2);
+      text-align: center;
+      font-size: 24px;
+      border-style                :   solid;
+      border-width                :   2px;
+      border-color                :   black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .vidB
+    {
+        width: 300px;
+      height: 100px;
+      background-color: #fcdfa4;
+      border-radius: 10px;
+      padding: 5px;
+      box-sizing: border-box;
+      color: black;
+      
+      text-align: center;
+      font-size: 24px;
+      border-style                :   solid;
+      border-width                :   2px;
+      border-color                :   black;
+      font-weight: bold;
+      cursor: pointer;
+    }
+ 
+
+    .bot {
+      background: white;
+      align-items: center;
+      width: 100%;
+      padding: 20px;
+    height: 50;
+    }
+
+    .boti {
+      background: white;
+     
+      width: 80%;
+      padding: 20px;
+    height: max-content;
+    }
+    .tobar
+    {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      text-shadow: 2px 2px black;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+    }
+    
+    .box {
+      flex: 1;
+      align-items: left;
+      padding: 10px;
+      
+    }
+
+    .para{
+
+      font-size: 20px;
+      
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidebar {
+          padding-top: 15px;
+      }
+  
+      .sidebar a {
+          font-size: 18px;
+      }
+
+      body {
+    
+        margin: 0%;
+        background-color: #ff9c9c;
+        background-image:  radial-gradient(#000000 0.9500000000000001px, transparent 0.9500000000000001px), radial-gradient(#000000 0.9500000000000001px, #ff9c9c 0.9500000000000001px);
+        background-size: 38px 38px;
+        background-position: 0 0,19px 19px;
+    
+    
+        
+      }
+    
+    
+      
+      .grdiv {
+          
+          padding: 10px;
+          align-content: center;
+          
+         
+          width: 100%;
+          height: 100%;
+          border-radius: 0px;
+          padding: z0px;
+          box-sizing: border-box;
+          color: black ;
+          font-size: 15px;
+          
+        }
+        p {
+            font-size: 40px;
+          }
+    
+        .SP
+        {
+            width: 4px;
+            height: 10PX;
+        }
+        .SPh
+        {
+            width: 4px;
+            height: 10PX;
+        }
+      
+        .gr {
+          background: white;
+          align-items: center;
+          width: max-content;
+          padding: 20px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+          height: max-content;
+          border-radius: 10px;
+          padding: z0px;
+          box-sizing: border-box;
+          color: black ;
+          text-align: center;
+         
+          font-weight: bold;
+        }
+      
+        .button {
+          width: max-content;
+          height: 100px;
+          background-color: #fca4a4;
+          border-radius: 10px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: black;
+          box-shadow: -2px -2px 10px rgba(1, 1, 1, 0.2);
+          text-align: center;
+          font-size: 24px;
+          border-style                :   solid;
+          border-width                :   2px;
+          border-color                :   black;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        
+        .buttonM {
+            width: 150px;
+            height: 100px;
+            background-color: #7caeff;
+            border-radius: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+            color: black;
+            
+            text-align: center;
+            font-size: 24px;
+            border-style                :   solid;
+            border-width                :   2px;
+            border-color                :   black;
+            font-weight: bold;
+            cursor: pointer;
+          }
+      
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #ff72d7;
+            overflow-x: hidden;
+            padding-top: 60px;
+            transition: 0.5s;
+        }
+        
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: #fff;
+            display: block;
+            transition: 0.3s;
+        }
+        
+        .sidebar a:hover {
+            color: #f1f1f1;
+        }
+        
+        .sidebar .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+        
+        .openbtn {
+            font-size: 1rem;
+            cursor: pointer;
+            background-color: transparent;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+        }
+        
+        .openbtn:hover {
+            background-color: #ff72d7;
+        }
+        
+        #main {
+            transition: margin-left 0.5s;
+            padding: 20px;
+        }
+        .NB
+        {
+          width: 140px;
+          height: 100px;
+          background-color: #e6a4fc;
+          border-radius: 10px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: black;
+          box-shadow: -2px -2px 10px rgba(1, 1, 1, 0.2);
+          text-align: center;
+          font-size: 24px;
+          border-style                :   solid;
+          border-width                :   2px;
+          border-color                :   black;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .NBT
+        {
+          width: 140px;
+          height: 100px;
+          background-color: #1eff7c;
+          border-radius: 10px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: black;
+         
+          text-align: center;
+          font-size: 24px;
+          border-style                :   solid;
+          border-width                :   2px;
+          border-color                :   black;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .vidBT
+        {
+          width: 300px;
+          height: 100px;
+          background-color: #fca4a4;
+          border-radius: 10px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: black;
+          box-shadow: -2px -2px 10px rgba(1, 1, 1, 0.2);
+          text-align: center;
+          font-size: 24px;
+          border-style                :   solid;
+          border-width                :   2px;
+          border-color                :   black;
+          font-weight: bold;
+          cursor: pointer;
+        }
+        .vidB
+        {
+            width: 300px;
+          height: 100px;
+          background-color: #fcdfa4;
+          border-radius: 10px;
+          padding: 5px;
+          box-sizing: border-box;
+          color: black;
+          
+          text-align: center;
+          font-size: 24px;
+          border-style                :   solid;
+          border-width                :   2px;
+          border-color                :   black;
+          font-weight: bold;
+          cursor: pointer;
+        }    
+
+      .bot {
+     background-color: #AE8251;
+        
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+      height: 50;
+      }
+  
+      .boti {
+        background:  #AE8251 ;
+       
+        width: 80%;
+        padding: 20px;
+      height: max-content;
+      }
+      .tobar
+      {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        text-shadow: 2px 2px black;
+        color: white;
+        display: none;
+      }
+  
+      .container {
+        display: flex;
+      }
+      
+      .box {
+        flex: 1;
+        align-items: left;
+        padding: 10px;
+        
+      }
+  }

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="icon" type="image/x-icon" href="image/logo.png">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <script src="https://kit.fontawesome.com/4d9c435e65.js" crossorigin="anonymous"></script>
+    <script>
+      function showMessage() {
+        alert("Coming Soon!");
+      }
+    </script>
+</head>
+<body>
+
+
+  <div> <nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <a class="navbar-brand" href="#">Nexus</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home
+          </a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="about.html"> About <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="notes.html">Notes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="books.html">Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="vid.html">Lectures</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="pvq.html">PYQs</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="login" href="login.html">LOGIN</a>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </nav>
+</div>
+   
+<center>
+<div class="backg">
+
+  <img src="image/logo.png" width="10%" /> 
+
+ <!-- <img src="/rm222batch2-kul-30.jpg" class="bgimage" alt="bg-dark"> -->
+  <div class="cardtype" >
+   
+      <div class="card" style="width: 18rem; margin-bottom: 30px;">
+  <img class="card-img-top" src="https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip " alt="Card image cap">
+  <div onclick="myFunction3()" class="card-body">
+    <p class="card-text"><center><button type="button" class="btn btn-secondary">Books</button></center> </p>
+    <script>
+    function myFunction3() {
+                      window.location.href = "books.html";
+                    }
+    </script>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;margin-bottom: 30px;">
+  <img class="card-img-top" src="https://www.insidehighered.com/sites/default/files/media/GettyImages-1240999151.jpg">
+  <div onclick="myFunction1()" class="card-body">
+    <p class="card-text"><center><button type="button" class="btn btn-secondary">Lectures</button></center> </p>
+    <script>  function myFunction1() {
+      window.location.href = "vid.html";
+    }
+    </script>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;margin-bottom: 30px;">
+  <img class="card-img-top" src="https://cdn.pixabay.com/photo/2016/03/27/23/11/post-it-notes-1284667__340.jpg">
+  <div onclick="myFunction2()" class="card-body">
+    <p class="card-text"><center><button type="button" class="btn btn-secondary">Notes</button></center> </p>
+    <script>  function myFunction2() {
+      window.location.href = "notes.html";
+    }
+    </script>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem; margin-bottom: 30px;">
+  <img class="card-img-top" src="/Screenshot 2023-04-18 121121.png" alt="Card image cap">
+  <div  onclick="myFunction4()" class="card-body">
+    <p class="card-text"><center><button type="button" class="btn btn-secondary" onclick="showMessage()">PYQs</button></center> </p>
+    
+    <script>
+       function myFunction4() {
+                          window.location.href = "pvq.html";
+                        }
+    </script>
+    
+  </div>
+</div>
+</center>
+</div>
+</div>
+
+
+
+
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for more awesome content</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example29" class="form-control" />
+              <label class="form-label" for="form5Example29">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+
+
+<div class="col-lg-4">
+    
+      <!-- Facebook -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn text-white btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    
+  </div>
+
+
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="#">Nexus</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+
+
+
+
+</body>
+</html>
+
+
+
